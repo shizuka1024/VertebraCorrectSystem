@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.RealtimeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChart"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/viewScroll"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="2" />
+
+        <ScrollView
+            android:id="@+id/viewScroll"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:padding="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lineChart"
+            app:layout_constraintVertical_bias="1">
+
+            <TextView
+                android:id="@+id/txtReceive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginTop="15dp"
+                android:background="#eeeeee"
+                android:hint="即時資料顯示"
+                android:padding="15dp"
+                android:gravity="center_vertical"
+                android:scrollbars="vertical"
+                android:textColor="@color/darktxt"
+                android:textColorHint="@color/darktxt"
+                android:typeface="monospace" />
+
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/realtimetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="20dp"
+            android:background="#eeeeee"
+            android:textSize="25dp"
+            android:hint="即時資料顯示"
+            android:gravity="center"
+            android:padding="15dp"
+            android:scrollbars="vertical"
+            android:textColor="@color/darktxt"
+            android:textColorHint="@color/darktxt"
+            android:typeface="monospace"
+            app:layout_constraintLeft_toRightOf="@id/viewScroll"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lineChart"/>
+
+        <TextView
+            android:id="@+id/realtimecntxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="25dp"
+            android:background="#eeeeee"
+            android:textSize="25dp"
+            android:hint="正常"
+            android:gravity="center"
+            android:padding="15dp"
+            android:scrollbars="vertical"
+            android:textColor="@color/darktxt"
+            android:textColorHint="@color/darktxt"
+            android:typeface="monospace"
+            app:layout_constraintLeft_toRightOf="@id/viewScroll"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/realtimetxt"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
