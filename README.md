@@ -1,5 +1,7 @@
 # VertebraCorrectSystem
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/G1M-KY83dEo/0.jpg)](https://www.youtube.com/watch?v=G1M-KY83dEo "大同大學專題 護聯網")
+
 ![大專PPT微軟 pptx](https://user-images.githubusercontent.com/56194005/180785596-c620d277-bcbf-42dd-a3fe-da5b476b759b.jpg)
 ![大專PPT微軟 pptx (1)](https://user-images.githubusercontent.com/56194005/180785624-396ab8a4-881b-4cd0-8f2d-7795bfbdbfae.jpg)
 ![大專PPT微軟 pptx (2)](https://user-images.githubusercontent.com/56194005/180785633-652a7f2e-c76b-4f4f-95bf-3d16a1ab7855.jpg)
@@ -17,5 +19,3 @@
 ![大專PPT微軟 pptx (15)](https://user-images.githubusercontent.com/56194005/180785700-3fe9b227-7737-4c2d-a4f0-85801ecb450a.jpg)
 ![大專PPT微軟 pptx (16)](https://user-images.githubusercontent.com/56194005/180785706-2247db69-aade-4338-9b3e-2771675b9bbc.jpg)
 ![大專PPT微軟 pptx (17)](https://user-images.githubusercontent.com/56194005/180785714-f7ec31b6-4ece-43d1-878d-43f8f7020768.jpg)
-
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/G1M-KY83dEo/0.jpg)](https://www.youtube.com/watch?v=G1M-KY83dEo "大同大學專題 護聯網")
